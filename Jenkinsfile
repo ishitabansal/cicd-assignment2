@@ -18,12 +18,17 @@ pipeline{
              
              }
              
+                stage('Deploy')
+             {  steps{
+                       sh 'mvn Deploy'
+                     } 
              
-             stage('Deploy'){ 
-        steps{
-          echo 'Deploy Stage' 
-           }
-             }           
+             }
+           
+        
+           
+           
+          
        }
  
 }

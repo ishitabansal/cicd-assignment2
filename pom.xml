@@ -9,8 +9,8 @@
   </properties>
    <distributionManagement>
    <snapshotRepository>
-     <id>assignment-2</id>
-     <name>assignment-2</name>
+     <id>MyNexusServer</id>
+     <name>MyNexusServer</name>
      <url>http://localhost:8081/repository/assignment-2/</url>
    </snapshotRepository>
 </distributionManagement>
